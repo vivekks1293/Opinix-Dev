@@ -1,0 +1,25 @@
+# Node modules
+/node_modules/
+
+# Build output
+/dist/
+/out-tsc/
+
+# Angular cache
+/.angular/cache/
+
+# Environment files
+src/environments/*.ts
+!src/environments/environment.prod.ts
+
+# IDE files
+.vscode/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency locks
+package-lock.json
+yarn.lock
