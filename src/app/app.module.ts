@@ -30,6 +30,7 @@ import { CreditIconComponent } from './dashboard/icons/credit-icon/credit-icon.c
 import { StatusIconComponent } from './dashboard/icons/status-icon/status-icon.component';
 import { ArchiveIconComponent } from './dashboard/icons/archive-icon/archive-icon.component';
 import { SettingsIconComponent } from './dashboard/icons/settings-icon/settings-icon.component';
+import { CommentIconComponent } from './dashboard/icons/comment-icon/comment-icon.component';
 
 // others
 import { DocComponent } from './components/docs/doc/doc.component';
@@ -67,6 +68,7 @@ import { AngularIconComponent } from './components/docs/icons/angular-icon/angul
     CreditIconComponent,
     StatusIconComponent,
     SettingsIconComponent,
+    CommentIconComponent,
 
     // others
     DocComponent,

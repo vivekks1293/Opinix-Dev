@@ -2,18 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 .header-mobile{
-    background: linear-gradient(145deg, #575661, #54575c);
-    /* border-radius: 20px; */
-    padding: 2rem;
-    box-shadow:
-      5px 5px 15px rgba(0, 0, 0, 0.2),
-      -5px -5px 15px rgba(255, 255, 255, 0.8),
-      inset 1px 1px 0 rgba(255, 255, 255, 0.2),
-      inset -1px -1px 0 rgba(0, 0, 0, 0.05);
-    text-align: center;
-    /* margin: 2rem auto; */
-    max-width: 800px;
-    transition: all 0.3s ease;
+  background: linear-gradient(145deg, #100f1c, #100f1c);
+  /* border-radius: 20px; */
+  padding: 2rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -0px 11px rgba(124, 199, 190, 0.8), inset 1px 1px 0 rgba(255, 255, 255, 0.2), inset -1px -1px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+  /* margin: 2rem auto; */
+  /* max-width: 800px; */
+  transition: all 0.3s ease;
 }
 
 .keep-center {
