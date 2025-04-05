@@ -8,6 +8,7 @@ import { GigglyModule } from 'giggly';
 // dashboard components
 import { LayoutComponent } from './dashboard/layout/layout.component';
 import { TopBarComponent } from './dashboard/top-bar/top-bar.component';
+import { BottomBarComponent } from './dashboard/bottom-bar/bottom-bar.component';
 import { OverlayComponent } from './dashboard/overlay/overlay.component';
 import { SidebarComponent } from './dashboard/sidebar/sidebar/sidebar.component';
 import { SidebarItemComponent } from './dashboard/sidebar/sidebar-item/sidebar-item.component';
@@ -44,6 +45,7 @@ import { AngularIconComponent } from './components/docs/icons/angular-icon/angul
     // dashboard
     LayoutComponent,
     TopBarComponent,
+    BottomBarComponent,
     OverlayComponent,
     SidebarComponent,
     SidebarItemComponent,

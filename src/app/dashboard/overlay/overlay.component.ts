@@ -14,15 +14,7 @@ export class OverlayComponent {
   }
 
   closeSidebar() {
-    if(this.isSmallMobileDevice())
+    if(this.dashboard.isSmallMobileDevice())
       this.dashboard.closeSidebar();
-  }
-
-  isSmallMobileDevice() {
-    const ua = navigator.userAgent.toLowerCase();
-    const isMobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(ua);
-    const isSmallScreen = window.innerWidth <= 768; // You can adjust breakpoint if needed
-  
-    return isMobile && isSmallScreen;
   }
 }
