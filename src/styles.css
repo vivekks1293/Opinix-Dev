@@ -1,6 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header-mobile{
+    background: linear-gradient(145deg, #575661, #54575c);
+    /* border-radius: 20px; */
+    padding: 2rem;
+    box-shadow:
+      5px 5px 15px rgba(0, 0, 0, 0.2),
+      -5px -5px 15px rgba(255, 255, 255, 0.8),
+      inset 1px 1px 0 rgba(255, 255, 255, 0.2),
+      inset -1px -1px 0 rgba(0, 0, 0, 0.05);
+    text-align: center;
+    /* margin: 2rem auto; */
+    max-width: 800px;
+    transition: all 0.3s ease;
+}
 
+.keep-center {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;           /* Optional: full viewport height */
+}
 
 /* You can add global styles to this file, and also import other style files */

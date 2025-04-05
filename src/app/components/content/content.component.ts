@@ -20,7 +20,8 @@ export class ContentComponent implements OnInit {
   timeLeftText = '6d left';
 
   ngOnInit(): void {
-    this.dashboard.openSidebar();
+    if(!this.dashboard.isSmallMobileDevice())
+      this.dashboard.openSidebar();
   }
   handleVote(voteData: { id: string, text: string, votes: number, percentage: number }): void {
     console.log('Vote received:', voteData);
